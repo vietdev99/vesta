@@ -1,4 +1,4 @@
-[VestaCP + PHP 7.3](https://github.com/pnduonghd/vesta)
+[VestaCP + PHP 7.3](https://github.com/vietdev99/vesta)
 ==================================================
 
 How to install (3 step)
@@ -10,7 +10,7 @@ ssh root@your.server
 
 Download the installation script:
 ```bash
-curl -L -O 'https://raw.githubusercontent.com/pnduonghd/vesta/master/install/vst-install-rhel.sh'
+curl -L -O 'https://raw.githubusercontent.com/vietdev99/vesta/master/install/vst-install-rhel.sh'
 ```
 Then run it:
 ```bash

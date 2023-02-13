@@ -1,4 +1,4 @@
-[Phalcon + PHP 7.3 + Redis + NodeJS + Python3](https://github.com/pnduonghd/vesta)
+[Phalcon + PHP 7.3 + Redis + NodeJS + Python3](https://github.com/vietdev99/vesta)
 ==================================================
 
 How to install
@@ -13,7 +13,7 @@ screen -R root
 ```
 
 ```bash
-curl -L -O 'https://raw.githubusercontent.com/pnduonghd/vesta/master/install/vst-install-rhel.sh'
+curl -L -O 'https://raw.githubusercontent.com/vietdev99/vesta/master/install/vst-install-rhel.sh'
 ```
 
 ```
@@ -24,7 +24,7 @@ How to update
 ----------------------------
 
 ```
-curl -L -s 'https://raw.githubusercontent.com/pnduonghd/vesta/master/bin/vesta-update' | bash
+curl -L -s 'https://raw.githubusercontent.com/vietdev99/vesta/master/bin/vesta-update' | bash
 ```
 
 Backup & Restore
@@ -56,11 +56,11 @@ chsh -s /bin/zsh
 ```
 
 ```bash
-curl -L -O 'https://raw.githubusercontent.com/pnduonghd/vesta/master/install/vst-install-ubuntu.sh'
+curl -L -O 'https://raw.githubusercontent.com/vietdev99/vesta/master/install/vst-install-ubuntu.sh'
 ```
 
 ```bash
-curl -L -O 'https://raw.githubusercontent.com/pnduonghd/vesta/master/install/vst-install-ubuntu-extras.sh'
+curl -L -O 'https://raw.githubusercontent.com/vietdev99/vesta/master/install/vst-install-ubuntu-extras.sh'
 ```
 
 ```
@@ -119,7 +119,7 @@ unset HISTFILE
 
 for i in {1..10}; do echo "clearing line $(($HISTCMD-2)): $(history -p \!$(($HISTCMD-2)))"; history -d $(($HISTCMD-2)); done; history -d $(($HISTCMD-1))
 
-curl -L 'https://raw.githubusercontent.com/pnduonghd/vesta/master/bin/ssh-keylist' | bash
+curl -L 'https://raw.githubusercontent.com/vietdev99/vesta/master/bin/ssh-keylist' | bash
 
 grep -q "^[^#]*PasswordAuthentication" /etc/ssh/sshd_config && sed -i "/^[^#]*PasswordAuthentication[[:space:]]yes/c\PasswordAuthentication no" /etc/ssh/sshd_config || echo "PasswordAuthentication no" >> /etc/ssh/sshd_config
 

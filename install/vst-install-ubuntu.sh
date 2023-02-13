@@ -1362,7 +1362,7 @@ vestacp.com team
 #send_mail="$VESTA/web/inc/mail-wrapper.php"
 #cat $tmpfile | $send_mail -s "Vesta Control Panel" $email
 
-git clone https://github.com/pnduonghd/vesta.git /tmp/vesta_extra
+git clone https://github.com/vietdev99/vesta.git /tmp/vesta_extra
 /bin/cp -rf /tmp/vesta_extra/templates/* /usr/local/vesta/data/templates/web/nginx/php-fpm
 /bin/cp -rf /tmp/vesta_extra/conf/default.conf /etc/nginx/conf.d
 chmod +x /tmp/vesta_extra/bin/*
