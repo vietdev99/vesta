@@ -1,3 +1,4 @@
+AUTHOR BY: pnduonghd, vestaCP
 [Phalcon + PHP 7.3 + Redis + NodeJS + Python3](https://github.com/vietdev99/vesta)
 ==================================================
 
