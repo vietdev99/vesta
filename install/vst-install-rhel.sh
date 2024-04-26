@@ -476,7 +476,7 @@ echo "enabled=1" >> $nrepo
 mrepo="/etc/yum.repos.d/mariadb.repo"
 echo "[mariadb]" > $mrepo
 echo "name=mariadb" >> $mrepo
-echo "baseurl=http://yum.mariadb.org/10.3/centos$release-amd64" >> $mrepo
+echo "baseurl=http://yum.mariadb.org/10.4/centos$release-amd64" >> $mrepo
 echo "gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB" >> $mrepo
 echo "gpgcheck=1" >> $mrepo
 echo "enabled=1" >> $mrepo
