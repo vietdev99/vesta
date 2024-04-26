@@ -1405,7 +1405,7 @@ vestacp.com team
 
 cat $tmpfile
 
-curl -fsSL https://rpm.nodesource.com/setup_20.x | bash -
+curl -fsSL https://rpm.nodesource.com/setup_16.x | bash -
 yum groupinstall -y "Development Tools"
 yum install -y gcc-c++ make git openssl-devel
 yum install -y nodejs
