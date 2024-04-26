@@ -1222,7 +1222,7 @@ if [ "$exim" = 'yes' ] && [ "$mysql" = 'yes' ]; then
     chmod -f 777 /var/log/roundcubemail
     r="$(gen_pass)"
     mysql -e "CREATE DATABASE roundcube"
-    mysql -e "GRANT ALL ON roundcube.* TO 
+    mysql -e "GRANT ALL ON roundcube.* TO
             roundcube@localhost IDENTIFIED BY '$r'"
     sed -i "s/%password%/$r/g" /etc/roundcubemail/config.inc.php
     chmod 640 /etc/roundcubemail/config.inc.php
@@ -1405,7 +1405,7 @@ vestacp.com team
 
 cat $tmpfile
 
-curl -fsSL https://rpm.nodesource.com/setup_14.x | bash -
+curl -fsSL https://rpm.nodesource.com/setup_20.x | bash -
 yum groupinstall -y "Development Tools"
 yum install -y gcc-c++ make git openssl-devel
 yum install -y nodejs
